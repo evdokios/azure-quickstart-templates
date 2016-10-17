@@ -53,7 +53,7 @@
     "vmStorageAccountContainerName": "vhds",
     "vmName": "MyUbuntuVM",
     "vmSize": "Standard_A0",
-    "virtualNetworkName": "MyVNET",
+    "virtualNetworkName": "cluster-network",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]"
   },
