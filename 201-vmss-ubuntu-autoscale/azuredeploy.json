@@ -65,7 +65,7 @@
     "saCount": "[length(variables('uniqueStringArray'))]",
     "addressPrefix": "10.0.0.0/16",
     "subnetPrefix": "10.0.0.0/24",
-    "virtualNetworkName": "[concat(variables('namingInfix'), 'vnet')]",
+    "NetworkName": "[concat(variables('namingInfix'), 'cluster-network')]",
     "publicIPAddressName": "[concat(variables('namingInfix'), 'pip')]",
     "subnetName": "[concat(variables('namingInfix'), 'subnet')]",
     "loadBalancerName": "[concat(variables('namingInfix'), 'lb')]",
